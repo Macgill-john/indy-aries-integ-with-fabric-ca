@@ -1,8 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 # Integration of Hyperledger Aries & Indy with Hyperledger Fabric-CA
 
 This project focuses on the integration of Hyperledger Indy and Hyperledger Aries with Hyperledger Fabric to enhance the identity management and secure communication capabilities of the Fabric blockchain network. The primary objective is to leverage the decentralized identity (DID) and verifiable credentials (VC) features provided by Indy and Aries to generate Certificate Authority (CA) certificates for Fabric. These certificates are then utilized by Hyperledger Fabric to authenticate and authorize network participants, ensuring secure and efficient communication within the blockchain ecosystem.
