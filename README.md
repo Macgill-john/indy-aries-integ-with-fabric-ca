@@ -89,7 +89,7 @@ echo NGROK_AUTHTOKEN=COPIED_NGROK_AUTHTOKEN > .env
 ```bash
 git clone https://github.com/hyperledger/aries-cloudagent-python.git
 ```
-Then copy [start_issuer.sh]() and [start_holder.sh]() to **./aries-cloudagent-python/scripts**
+Then copy [start_issuer.sh](./scripts/start_issuer.sh) and [start_holder.sh](./scripts/start_holder.sh) to **./aries-cloudagent-python/scripts**
 
 ## Hyperledger Fabric
 
@@ -98,7 +98,7 @@ curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/ins
 ./install-fabric.sh -f '2.5.3' -c '1.5.6'
 sudo cp fabric-samples/bin/* /usr/local/bin
 ```
-Then [Download]() Fabric-network.zip in the repository and unzip it.
+Then [Download](./Fabric-network.zip) Fabric-network.zip in the repository and unzip it.
 
 # Steps for Running
 
