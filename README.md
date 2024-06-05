@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # Integration of Hyperledger Aries & Indy with Hyperledger Fabric-CA
 
 This project focuses on the integration of Hyperledger Indy and Hyperledger Aries with Hyperledger Fabric to enhance the identity management and secure communication capabilities of the Fabric blockchain network. The primary objective is to leverage the decentralized identity (DID) and verifiable credentials (VC) features provided by Indy and Aries to generate Certificate Authority (CA) certificates for Fabric. These certificates are then utilized by Hyperledger Fabric to authenticate and authorize network participants, ensuring secure and efficient communication within the blockchain ecosystem.
@@ -23,6 +28,9 @@ This project focuses on the integration of Hyperledger Indy and Hyperledger Arie
 - Indy-tails-server
 - Aries-cloud-agent Python
 - Hyperledger Fabric
+
+# Folder Structure
+![drawing](./images/folder_structure.png)
 
 # Installation of Prerequisites
 
@@ -225,6 +233,7 @@ name: ORG1-CA
 keyfile: /etc/hyperledger/fabric-ca-server/key.pem
 certfile: /etc/hyperledger/fabric-ca-server/rca.pem
 ```
+![drawing](./images/fabric_ca_org1_config.png)
 - Then execute below command in fabric-terminal
 ```bash
 docker-compose -f docker/docker-compose-ca.yaml up -d
